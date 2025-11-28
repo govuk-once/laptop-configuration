@@ -12,12 +12,14 @@ Install Homebrew: [https://brew.sh/](https://brew.sh/)
 
 ## Setup your laptop
 Install base tools
-```
+```bash
 brew bundle --file=./brewfile
 ```
 
 ## Run configuration scripts
-```
+
+The `setup.sh` script will configure git and the gds-cli with commonly used settings, it is recommended you review the setup.sh script and understand the changes before running.
+```bash
 ./setup.sh
 ```
 
