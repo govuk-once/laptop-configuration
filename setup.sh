@@ -13,3 +13,4 @@ git config --global user.name "$githubusername"
 
 echo "Configuring gds-cli"
 gds-cli config email "$emailaddress"
+gds-cli config yubikey false
